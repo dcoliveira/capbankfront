@@ -1,12 +1,12 @@
 <template>
     <div class="saldo-admin">
         <b-form>
-            
-                <b-col xs="12">
-                    <b-button variant="primary" @click="reset">Visualizar</b-button>
-                </b-col>
+            <b-col xs="12">
+                <b-button variant="primary" @click="reset">Visualizar</b-button>
+            </b-col>
         </b-form> 
         <hr>
+        <b-table hover striped :items="depositos.valorsaldo"></b-table>
         <h5>Extrato</h5>
         <b-table hover striped :items="depositos.historico"></b-table>
     </div>    

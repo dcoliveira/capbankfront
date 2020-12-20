@@ -26,7 +26,7 @@
         </b-form> 
         <hr>
         <h5>Histórico</h5>
-        <b-table hover striped :items="depositos.historico"></b-table>
+        <b-table hover striped :items="depositos.historico_deposito"></b-table>
     </div>    
 </template>
 
